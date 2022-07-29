@@ -1,0 +1,193 @@
+/*=========================================
+              Table of Contents
+=========================================*/
+
+.disOff {
+  display: none;
+}
+
+
+.artWorkGrid {
+  height: 400px!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.artWorkGridImg0 {
+  background-image: url('/assets/img/artwork/abstract0-min.jpg');
+}
+.artWorkGridImg1 {
+  background-image: url('/assets/img/artwork/abstract1-min.jpg');
+}
+.artWorkGridImg2 {
+  background-image: url('/assets/img/artwork/abstract2-min.jpg');
+}
+
+.artWorkGridImg3 {
+  background-image: url('/assets/img/artwork/abstract3-min.jpg');
+}
+.artWorkGridImg4 {
+  background-image: url('/assets/img/artwork/abstract4-min.jpg');
+}
+.artWorkGridImg5 {
+  background-image: url('/assets/img/artwork/newEngland0-min.png');
+}
+
+.artWorkGridImg6 {
+  background-image: url('/assets/img/artwork/newEngland1-min.png');
+}
+
+.artWorkGridImg7 {
+  background-image: url('/assets/img/artwork/newEngland2-min.jpg');
+}
+
+.artWorkGridImg8 {
+  background-image: url('/assets/img/artwork/newEngland3-min.jpg');
+}
+
+.artWorkGridImg9 {
+  background-image: url('/assets/img/artwork/newEngland4-min.jpg');
+}
+
+.artWorkGridImg10 {
+  background-image: url('/assets/img/artwork/newEngland5-min.jpg');
+}
+
+.artWorkGridImg11 {
+  background-image: url('/assets/img/artwork/portrait0-min.jpg');
+}
+
+.artWorkGridImg12 {
+  background-image: url('/assets/img/artwork/portrait1-min.png');
+}
+
+.artWorkGridImg13 {
+  background-image: url('/assets/img/artwork/portrait2-min.png');
+}
+
+.artWorkGridImg14 {
+  background-image: url('/assets/img/artwork/portrait3-min.jpg');
+}
+
+.artWorkGridImg15 {
+  background-image: url('/assets/img/artwork/simple0-min.png');
+}
+
+.artWorkGridImg16 {
+  background-image: url('/assets/img/artwork/simple1-min.png');
+}
+
+.artWorkGridImg17 {
+  background-image: url('/assets/img/artwork/simple2-min.png');
+}
+
+.artWorkGridImg18 {
+  background-image: url('/assets/img/artwork/simple3-min.png');
+}
+
+.artWorkGridImg19 {
+  background-image: url('/assets/img/artwork/simple4-min.png');
+}
+
+.artWorkGridImg20 {
+  background-image: url('/assets/img/artwork/shakespeare0-min.png');
+}
+
+
+
+
+
+
+/*=========================================
+              Global
+=========================================*/
+
+.hero-bg {
+  background-image: url('/assets/img/photo0-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70vh!important;
+}
+
+
+
+
+/*=========================================
+              Navigation Menu
+=========================================*/
+
+.top-nav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* hidden by default */
+.top-nav #top-nav-links {
+  display: none;
+}
+
+ /*Style navigation menu links */
+.top-nav a {
+  padding: 1em 1em;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+ /*Style the hamburger menu */
+.top-nav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#top-nav-links a {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/*=========================================
+              Media Queries
+=========================================*/
+
+@media only screen and (min-width: 769px) {
+
+  /*=========================================
+                HEADER
+  =========================================*/
+  .disOff {
+    display: flex;
+  }
+
+  .disOff img {
+    margin: auto;
+  }
+
+  .top-nav {
+    padding: 1em 0 1em 0;
+  }
+
+  .top-nav #top-nav-links {
+    display: inline;
+  	float: right;
+  }
+
+  .top-nav a {
+    text-decoration: none;
+    display: inline;
+  }
+
+  .top-nav a.icon {
+    display: none;
+  }
+
+}
